@@ -1,0 +1,130 @@
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #101c32;
+  padding: 20px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 430px;
+  background: white;
+  padding: 38px;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+}
+
+.login-logo {
+  width: 55px;
+  height: 55px;
+  background: #eaf2ff;
+  color: #2563eb;
+  display: grid;
+  place-items: center;
+  border-radius: 13px;
+  margin-bottom: 15px;
+}
+
+.login-card h1 {
+  font-size: 25px;
+  margin-bottom: 4px;
+}
+
+.login-subtitle,
+.login-description {
+  color: #64748b;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.login-card h2 {
+  font-size: 19px;
+  margin: 30px 0 8px;
+}
+
+.login-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.login-card label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #334155;
+}
+
+.login-card input {
+  width: 100%;
+  border: 1px solid #d5deea;
+  border-radius: 8px;
+  padding: 13px;
+  margin-bottom: 10px;
+  outline: none;
+  color: #17243b;
+  background: white;
+}
+
+.login-card input:focus {
+  border-color: #2563eb;
+}
+
+.login-card form button {
+  border: 0;
+  background: #2563eb;
+  color: white;
+  padding: 14px;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.login-card form button:disabled {
+  opacity: 0.6;
+}
+
+.login-card .otp-input {
+  font-size: 24px;
+  letter-spacing: 8px;
+  text-align: center;
+}
+
+.otp-label {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  color: #64748b;
+}
+
+.login-error {
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 11px;
+  border-radius: 7px;
+  font-size: 12px;
+}
+
+.back-button {
+  border: 0;
+  background: transparent;
+  color: #2563eb;
+  cursor: pointer;
+  margin-top: 18px;
+  padding: 0;
+}
+
+.login-footer {
+  margin-top: 35px;
+  text-align: center;
+  color: #94a3b8;
+  font-size: 11px;
+}
